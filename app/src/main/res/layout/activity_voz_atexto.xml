@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente02"
+    tools:context=".Actividades.VozATexto">
+    <TextView
+        android:id="@+id/txtAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agenda"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        />
+
+    <ScrollView
+        android:layout_below="@+id/txtAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/txtEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp" />
+    </ScrollView>
+
+    <LinearLayout
+            android:id="@+id/ContenedorBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp"
+            >
+
+            <ImageButton
+                android:id="@+id/btnHablar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTransparente"
+                android:tint="@color/colorWhite"
+                android:src="@drawable/ic_audio" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+
+                android:text="@string/presione_para_hablar"/>
+        </LinearLayout>
+
+
+</RelativeLayout>

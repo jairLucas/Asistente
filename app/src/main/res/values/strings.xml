@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Asistente</string>
+    <string name="saltar_intro">Saltar intro</string>
+    <string name="siguiente">siguiente</string>
+    <string name="inicia_sesi_n">Inicia Sesión</string>
+    <string name="asistente_virtual_adaug">Asistente Virtual</string>
+    <string name="correo">Correo</string>
+    <string name="correo_gmail_com">correo@gmail.com</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="passw">*********</string>
+    <string name="se_olvida_la_contrase_a">Se olvida la contraseña?</string>
+    <string name="no_tiene_una_cuenta_registrese_ahora">No tiene una cuenta? Registrese ahora</string>
+    <string name="presione_para_hablar">Presione para hablar</string>
+    <string name="registro_de_cuenta">Registro de cuenta</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="guardar_y_enviar">Guardar y enviar</string>
+    <string name="listar_ubicacion">Listar Ubicacion</string>
+    <string name="escribir_con_voz">Escribir con voz</string>
+    <string name="asistente_virtual">Asistente Virtual</string>
+    <string name="lista_de_ubicaci_n">Lista de ubicación</string>
+    <string name="bienvenido">Bienvenido:</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="numero_de_celular">Numero de celular</string>
+    <string name="nombre_de_contacto">Nombre de contacto</string>
+    <string name="configuraci_n">Configuración</string>
+
+</resources>
